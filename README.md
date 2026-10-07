@@ -36,35 +36,35 @@
 ### 4.1. TC01 - Lấy danh sách bài viết (GET)
 - **Mô tả:** Gửi yêu cầu lấy toàn bộ dữ liệu bài viết và kiểm tra response.
 - **Hình ảnh minh chứng:**
-![TC01 GET All](images/tc01_get_all.png)
+![TC01 GET All](tc01_get_all.png)
 
 ---
 
 ### 4.2. TC02 - Lấy chi tiết bài viết theo ID (GET)
 - **Mô tả:** Gửi yêu cầu lấy bài viết có `id = 1`.
 - **Hình ảnh minh chứng:**
-![TC02 GET Single](images/tc02_get_by_id.png)
+![TC02 GET Single](tc02_get_by_id.png)
 
 ---
 
 ### 4.3. TC03 - Tạo mới bài viết (POST)
 - **Mô tả:** Gửi dữ liệu JSON kèm tiêu đề và nội dung để thêm mới bài viết.
 - **Hình ảnh minh chứng:**
-![TC03 POST](images/tc03_post_create.png)
+![TC03 POST](tc03_post_create.png)
 
 ---
 
 ### 4.4. TC04 - Cập nhật bài viết (PUT)
 - **Mô tả:** Gửi dữ liệu mới để sửa bài viết có `id = 1`.
 - **Hình ảnh minh chứng:**
-![TC04 PUT](images/tc04_put_update.png)
+![TC04 PUT](tc04_put_update.png)
 
 ---
 
 ### 4.5. TC05 - Xóa bài viết (DELETE)
 - **Mô tả:** Gửi yêu cầu xóa bài viết có `id = 1`.
 - **Hình ảnh minh chứng:**
-![TC05 DELETE](images/tc05_delete.png)
+![TC05 DELETE](tc05_delete.png)
 
 ---
 
@@ -72,7 +72,7 @@
 - **Mô tả:** Chạy toàn bộ 5 Test Cases cùng lúc bằng tính năng Collection Runner.
 - **Kết quả:** Tất cả các test scripts đều đạt kết quả **Passed**.
 - **Hình ảnh minh chứng:**
-![Collection Runner](images/collection_runner.png)
+![Collection Runner](collection_runner.png)
 
 ---
 
